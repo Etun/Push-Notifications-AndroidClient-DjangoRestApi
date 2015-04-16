@@ -1,7 +1,9 @@
 Django==1.7
+dj-static==0.0.6
 django-tastypie==0.12.1
 gunicorn==19.3.0
 python-dateutil==2.4.2
 python-mimeparse==0.1.4
 six==1.9.0
+static3==0.5.1
 wsgiref==0.1.2
