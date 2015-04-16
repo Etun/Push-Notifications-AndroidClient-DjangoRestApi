@@ -54,6 +54,12 @@ ROOT_URLCONF = 'tastypie_project.urls'
 
 WSGI_APPLICATION = 'tastypie_project.wsgi.application'
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.',
+        'NAME': '',
+    }
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
