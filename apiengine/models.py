@@ -11,3 +11,4 @@ class MessageModel(models.Model):
 
     class Meta:
         ordering = ["-date"]
+
