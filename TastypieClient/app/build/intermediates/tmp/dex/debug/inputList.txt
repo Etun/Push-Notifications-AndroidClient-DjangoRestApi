@@ -1,0 +1,5 @@
+/Users/admin/TastypieClient/app/build/intermediates/classes/debug
+/Users/admin/TastypieClient/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-b0aa8ff627ebc21694f483f968f8d733e06d25a7.jar
+/Users/admin/TastypieClient/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-02ad0b13d23674361676af8fe70860e6a46b55b1.jar
+/Users/admin/TastypieClient/app/build/intermediates/pre-dexed/debug/classes-abd0a36a7b0b4bed9f1ec34f38c33a0edd4a3394.jar
+/Users/admin/TastypieClient/app/build/intermediates/pre-dexed/debug/classes-6d6783f33ed6810c61ecfce7f87afa5bc3e929a3.jar
