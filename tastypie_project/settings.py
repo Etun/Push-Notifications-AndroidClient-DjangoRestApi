@@ -89,5 +89,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 PUSH_NOTIFICATIONS_SETTINGS = {
-    'GCM_API_KEY': 'AIzaSyBP6qLgTHpKuCTFSZyMmrOHQkebiLVdGbk',
+    "GCM_API_KEY" : "AIzaSyBP6qLgTHpKuCTFSZyMmrOHQkebiLVdGbk",
 }

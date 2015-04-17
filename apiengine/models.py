@@ -1,4 +1,5 @@
 from django.db import models
+from push_notifications.models import APNSDevice, GCMDevice
 
 
 class MessageModel(models.Model):
@@ -9,6 +10,10 @@ class MessageModel(models.Model):
     def __unicode__(self):
         return self.title
 
+    def save(self, *args, **kwargs):
+        device = GCMDevice.objects.all()
+        device.send_message(None, extra={"title": self.title, "text": self.text, "date": str(self.date)})
+        return super(MessageModel, self).save(*args, **kwargs)
+
     class Meta:
         ordering = ["-date"]
-
